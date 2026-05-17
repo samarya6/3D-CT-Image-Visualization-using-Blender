@@ -72,6 +72,103 @@ These templates contain predefined node structures, rendering parameters, and vi
 
 ---
 
+# Usage
+
+## Opening the Template
+
+1. Open Blender.
+2. Open one of the provided template files:
+
+   * `brain_visualization_template.blend`
+   * `soft_tissue_visualization_template.blend`
+
+The templates already contain:
+
+* predefined Bioxel Nodes workflows
+* rendering settings
+* lighting setup
+* slicing tools
+* visualization parameters
+
+---
+
+## Importing a CT Dataset
+
+1. Install the Bioxel Nodes add-on in Blender.
+2. In Blender, open the Bioxel Nodes panel.
+3. Import a CT dataset (DICOM, NIfTI, or supported volumetric format).
+4. The dataset will be loaded as a volumetric object.
+
+After importing, the predefined node workflow can be connected directly to the imported volume.
+
+---
+
+## Reusing the Workflow with Append
+
+The visualization pipeline can also be reused in other Blender projects using Blender's Append function.
+
+### Append the Node Template
+
+1. Open your Blender project.
+2. Go to:
+
+```text
+File → Append
+```
+
+3. Select one of the template `.blend` files.
+4. Open:
+
+```text
+NodeTree
+```
+
+or
+
+```text
+GeometryNodeTree
+```
+
+5. Select the desired node group.
+6. Click:
+
+```text
+Append
+```
+
+The node workflow will now be available in the current Blender project.
+
+---
+
+## Rendering
+
+1. Connect the imported CT volume to the node workflow.
+2. Adjust threshold or color parameters if needed.
+3. Use the predefined camera and lighting setup.
+4. Render the scene using Cycles.
+
+---
+
+## Example Workflow
+
+```text
+Import CT Data
+        ↓
+Connect to Template
+        ↓
+Adjust Threshold / Color
+        ↓
+Render Visualization
+```
+
+---
+
+## Notes
+
+* The templates are designed for reusable scientific visualization workflows.
+* Different visualization styles can be achieved by modifying threshold ranges, opacity, and color mapping.
+* For best compatibility, use Blender together with the latest version of Bioxel Nodes.
+
 ## Author
 
 Shen Gao
