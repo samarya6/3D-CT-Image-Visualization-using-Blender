@@ -27,7 +27,7 @@ The workflow enables automated rendering and color mapping of volumetric CT data
 ## Workflow
 
 <p align="center">
-  <img src="figures/pipeline.png" width="80%">
+  <img src="renders/pipeline.png" width="80%">
 </p>
 
 <p align="center">
