@@ -41,7 +41,7 @@ The workflow enables automated rendering and color mapping of volumetric CT data
 ### Soft Tissue Visualization
 
 <p align="center">
-  <img src="renders/Soft_tissue.png" width="45%">
+  <img src="./renders/Soft_tissue.png" width="45%">
   <img src="renders/Soft_tissue_slide.png" width="45%">
 </p>
 
