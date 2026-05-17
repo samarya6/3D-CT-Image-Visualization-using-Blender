@@ -27,7 +27,7 @@ The workflow enables automated rendering and color mapping of volumetric CT data
 ## Workflow
 
 <p align="center">
-  <img src="./renders/pipeline.png" width="75%">
+  <img src="renders/pipeline.png" width="75%">
 </p>
 
 <p align="center">
@@ -41,8 +41,8 @@ The workflow enables automated rendering and color mapping of volumetric CT data
 ### Soft Tissue Visualization
 
 <p align="center">
-  <img src="./renders/Soft_tissue.png" width="45%">
-  <img src="./renders/Soft_tissue_slide.png" width="45%">
+  <img src="renders/Soft_tissue.png" width="45%">
+  <img src="renders/Soft_tissue_slide.png" width="45%">
 </p>
 
 <p align="center">
@@ -54,8 +54,8 @@ The workflow enables automated rendering and color mapping of volumetric CT data
 ### Brain Structure Visualization
 
 <p align="center">
-  <img src="./renders/Brain.png" width="45%">
-  <img src="./renders/Brain_slide.png" width="45%">
+  <img src="renders/Brain.png" width="45%">
+  <img src="renders/Brain_slide.png" width="45%">
 </p>
 
 <p align="center">
